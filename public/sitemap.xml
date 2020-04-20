@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost/posts/martin-lee-got-caught.html</loc>
+    <lastmod>2020-04-20T16:34:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/posts.html</loc>
+    <lastmod>2020-04-20T16:34:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/</loc>
+    <lastmod>2020-04-20T16:34:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/posts/wuhan-virus.html</loc>
+    <lastmod>2020-04-20T16:34:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/posts/hannah.html</loc>
+    <lastmod>2020-04-20T12:28:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/posts/marcus.html</loc>
+    <lastmod>2020-04-20T12:28:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/posts/my-first-post.html</loc>
+    <lastmod>2020-04-20T12:26:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/categories.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags.html</loc>
+  </url>
+  
+</urlset>

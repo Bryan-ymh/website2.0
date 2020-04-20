@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tiips 博客</title>
+    <link>http://localhost/</link>
+    <description>Recent content on Tiips 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2020, Timo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 20 Apr 2020 16:34:49 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Martin Lee Got Caught</title>
+      <link>http://localhost/posts/martin-lee-got-caught.html</link>
+      <pubDate>Mon, 20 Apr 2020 16:34:49 +0800</pubDate>
+      
+      <guid>http://localhost/posts/martin-lee-got-caught.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wuhan Virus</title>
+      <link>http://localhost/posts/wuhan-virus.html</link>
+      <pubDate>Mon, 20 Apr 2020 16:34:19 +0800</pubDate>
+      
+      <guid>http://localhost/posts/wuhan-virus.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannah</title>
+      <link>http://localhost/posts/hannah.html</link>
+      <pubDate>Mon, 20 Apr 2020 12:28:08 +0800</pubDate>
+      
+      <guid>http://localhost/posts/hannah.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcus</title>
+      <link>http://localhost/posts/marcus.html</link>
+      <pubDate>Mon, 20 Apr 2020 12:28:04 +0800</pubDate>
+      
+      <guid>http://localhost/posts/marcus.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost/posts/my-first-post.html</link>
+      <pubDate>Mon, 20 Apr 2020 12:26:49 +0800</pubDate>
+      
+      <guid>http://localhost/posts/my-first-post.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
