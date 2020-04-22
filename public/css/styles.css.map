@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/timo/Downloads/hugo-ws/quickstart",
+	"sourceRoot": "/Users/timo/Downloads/hugo-ws/blogger",
 	"sources": [
 		"themes/hugo-swift-theme/assets/sass/main.sass",
 		"themes/hugo-swift-theme/assets/sass/_variables.sass",
