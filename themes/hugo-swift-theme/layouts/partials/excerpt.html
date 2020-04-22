@@ -5,7 +5,7 @@
   {{- $scratch.Set "image" "thumbnail.svg" }}
 {{- end }}
 {{- $image := $scratch.Get "image" }}
-{{- $bg := (path.Join "images" $image | absLangURL) }}
+{{- $bg := (path.Join "images" $image | relURL) }}
 <li class = 'post_item'>
   <a class = 'post_card' href='{{ .RelPermalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
   </a>

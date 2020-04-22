@@ -4,6 +4,6 @@ title = "Tiips 博客"
 theme = "hugo-swift-theme"
 author = "Timo"
 copyright = "Copyright © 2020, Timo Authors; all rights reserved."
-canonifyurls = true
+#canonifyurls = true
 paginate = 4
 uglyurls = true
