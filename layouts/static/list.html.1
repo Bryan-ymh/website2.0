@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<body>
+    {{- partial "header.html" . -}}
+    <div id="content" class="page-content" aria-label="Content">
+        {{- block "main" . }}{{- end }}
+    </div>
+	<h1>Index.page</h1>
+    {{- partial "footer.html" . -}}
+</body>
+</html>

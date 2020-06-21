@@ -3,38 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost/posts.html</loc>
-    <lastmod>2020-04-20T16:34:49+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://localhost/</loc>
     <lastmod>2020-04-20T16:34:49+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/posts/hsbc-dividend.html</loc>
+    <loc>http://localhost/blog.html</loc>
     <lastmod>2020-04-20T16:34:49+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/posts/new-economy.html</loc>
+    <loc>http://localhost/blog/hsbc-dividend.html</loc>
+    <lastmod>2020-04-20T16:34:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/blog/new-economy.html</loc>
     <lastmod>2020-04-20T16:34:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/posts/oil-too-much.html</loc>
+    <loc>http://localhost/blog/oil-too-much.html</loc>
     <lastmod>2020-04-20T12:28:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/posts/next-gen.html</loc>
+    <loc>http://localhost/blog/next-gen.html</loc>
     <lastmod>2020-04-20T12:28:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/posts/my-first-post.html</loc>
+    <loc>http://localhost/blog/my-first-post.html</loc>
     <lastmod>2020-04-20T12:26:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/invest.html</loc>
   </url>
   
   <url>

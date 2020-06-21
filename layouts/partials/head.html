@@ -1,43 +1,50 @@
-<!DOCTYPE html>
-<html lang="zh-hant">
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MR4W8NJ');</script>
-<!-- End Google Tag Manager -->
-<link rel="icon" href="favicon.ico">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>tiips</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="/css/all.css" rel="stylesheet" type="text/css" />
-<link href="/css/animation.css" rel="stylesheet" type="text/css" />
-<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
-<link href="/css/parsley.css" rel="stylesheet" type="text/css" />
-<link href="/css/style.css" rel="stylesheet" type="text/css" />
- {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") -}}
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MR4W8NJ');
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <title>tiips</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link href="assets/img/favicon.ico" rel="favicon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.css" rel="stylesheet">
+  <link href="/assets/vendor/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+  <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/modal.css" rel="stylesheet">
+
+   {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") -}}
   {{- $styles := resources.Get "sass/main.sass" | resources.ExecuteAsTemplate "main.sass" . | resources.ToCSS $options | resources.Fingerprint "sha512" }}
 <link rel = 'stylesheet' href = '{{ $styles.RelPermalink }}' integrity = '{{ $styles.Data.Integrity }}'>
-<script src="/js/jquery-1.11.2.min.js"></script>
-<script src="/js/bootstrap.js"></script>
-<script src="/js/parsley.js"></script>
-<script src="/js/wow.js"></script>
-<script src="/js/function.js"></script>
-<script src="/js/menu.js"></script>
-<script>
-        new WOW().init();
-</script>
-<script>
-	function enpage() {
-                ss = location.href.replace(/ch/,"en")
-                window.location.href = ss
-        }
-	function chpage() {
-                ss = location.href.replace(/en/,"ch")
-                window.location.href = ss
-        }
-</script>
 </head>

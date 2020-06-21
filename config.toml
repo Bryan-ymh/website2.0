@@ -6,4 +6,5 @@ author = "Timo"
 copyright = "Copyright © 2020, Timo Authors; all rights reserved."
 #canonifyurls = true
 paginate = 4
+# use uglyurls to have filenames and these can be served in s3
 uglyurls = true
