@@ -1,5 +1,5 @@
 baseURL = "http://localhost/"
-languageCode = "en-us"
+ilanguageCode = "en-us"
 title = "Tiips 博客"
 theme = "hugo-swift-theme"
 author = "Timo"
@@ -8,3 +8,13 @@ copyright = "Copyright © 2020, Timo Authors; all rights reserved."
 paginate = 4
 # use uglyurls to have filenames and these can be served in s3
 uglyurls = true
+[params]
+  google_fonts = [
+    ["Fira Code", "400, 700"],
+    ["Open Sans", "400, 400i, 700, 700i"]
+  ]
+
+  heading_font = "Nunito"
+  body_font = "Monsterrat"
+
+disableLiveReload = true

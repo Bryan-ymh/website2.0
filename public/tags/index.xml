@@ -5,7 +5,6 @@
     <link>http://localhost/tags.html</link>
     <description>Recent content in Tags on Tiips 博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <copyright>Copyright © 2020, Timo Authors; all rights reserved.</copyright>
     
 	<atom:link href="http://localhost/tags/index.xml" rel="self" type="application/rss+xml" />
